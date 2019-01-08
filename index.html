@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css"/>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>Grade Calculator</title>
+</head>
+
+<body>
+
+    <h1>Grade Calculator</h1>
+    <table id="table" align="center">
+        <tr>
+            <th colspan="2">Homework:</th>
+        </tr>
+        <tr>
+            <th>Grade</th>
+            <th>Weight</th>
+        </tr>
+        <tr>
+            <td><input type="Text" id="gradeH" value="41, 64, 74"></td>
+            <td><input type="Text" id="weightH" value="20"></td>
+        </tr>
+        <tr>
+            <th colspan="2">Classwork:</th>
+        </tr>
+        <tr>
+            <th>Grade</th>
+            <th>Weight</th>
+        </tr>
+        <tr>
+            <td><input type="Text" id="gradeC" value="57, 14, 43"></td>
+            <td><input type="Text" id="weightC" value="20"></td>
+        </tr>
+        <tr>
+            <th colspan="2">Tests:</th>
+        </tr>
+        <tr>
+            <th>Grade</th>
+            <th>Weight</th>
+        </tr>
+        <tr>
+            <td><input type="Text" id="gradeT" value="27, 35, 99"></td>
+            <td><input type="Text" id="weightT" value="20"></td>
+        </tr>
+        <tr>
+            <th colspan="2">Participation:</th>
+        </tr>
+        <tr>
+            <th>Grade</th>
+            <th>Weight</th>
+        </tr>
+        <tr>
+            <td><input type="Text" id="gradePa" value="54, 76, 18"></td>
+            <td><input type="Text" id="weightPa" value="20"></td>
+        </tr>
+        <tr>
+            <th colspan="2">Projects:</th>
+        </tr>
+        <tr>
+            <th>Grade</th>
+            <th>Weight</th>
+        </tr>
+
+        <tr>
+            <td><input type="Text" id="gradeP" value="67, 24, 33"></td>
+            <td><input type="Text" id="weightP" value="20"></td>
+        </tr>
+    </table>
+    <br>
+    <div align="center">
+    <input class="w3-button w3-block w3-black" id="button" type="button" onclick= "calcGrade()" value="Calculate Grade">
+    </div>
+    <h3 align="center">Your grade is a:</h3>
+    <div align="center" id="grade"></div>
+</body>
+
+</html>

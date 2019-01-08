@@ -1,0 +1,12 @@
+h1 {
+    color: black;
+    text-align: center;
+}
+body {
+    background-color: slateblue;
+    align-items: center;
+}
+
+#grade {
+    font-size: 500px;
+}
